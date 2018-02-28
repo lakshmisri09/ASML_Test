@@ -15,7 +15,7 @@ for($i = $n1; $i <= $n2; $i++){
 	if ($i % 5 == 0)
 		$str .= "Apzz";
 	
-	if(empty($str))
+	if (empty($str))
 		$str = $i;
 	/* print the Result */
 	echo $str."<br>";
